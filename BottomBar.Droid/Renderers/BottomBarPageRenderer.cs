@@ -75,7 +75,7 @@ namespace BottomBar.Droid.Renderers
 					IVisualElementRenderer pageRenderer = Platform.GetRenderer (pageToRemove);
 
 					if (pageRenderer != null) {
-						pageRenderer.ViewGroup.RemoveFromParent ();
+						pageRenderer.View.RemoveFromParent ();
 						pageRenderer.Dispose ();
 					}
 
@@ -200,7 +200,7 @@ namespace BottomBar.Droid.Renderers
 				Platform.SetRenderer (view, Platform.CreateRenderer (view));
 			}
 
-			_frameLayout.AddView (Platform.GetRenderer (view).ViewGroup);
+			_frameLayout.AddView (Platform.GetRenderer (view).View);
 		}
 
 		protected override void OnLayout (bool changed, int l, int t, int r, int b)

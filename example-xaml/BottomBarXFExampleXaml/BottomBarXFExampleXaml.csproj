@@ -6,10 +6,10 @@
     <AssemblyName>BottomBarXFExampleXaml</AssemblyName>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
+    <PackageReference Include="Xamarin.Forms" Version="2.4.0.38779" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.4.0.275-pre3" />
+    <Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\BottomBar.XamarinForms\BottomBar.XamarinForms.csproj" />
