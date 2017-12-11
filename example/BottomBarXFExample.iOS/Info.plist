@@ -29,6 +29,6 @@
 	<key>UILaunchStoryboardName</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.pocheshire.BottomBarXFExample.iOS</string>
+	<string>com.fipac.iosapp</string>
 </dict>
 </plist>
