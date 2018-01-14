@@ -17,7 +17,6 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
-    <ReleaseVersion>0.8</ReleaseVersion>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -31,7 +30,6 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <AndroidLinkMode>None</AndroidLinkMode>
-    <AndroidSupportedAbis>arm64-v8a;armeabi;armeabi-v7a;x86</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>
@@ -171,7 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BottomBar.XamarinForms\BottomBar.XamarinForms.csproj">
-      <Project>{dd67d438-c481-4934-b25f-91cad1cba8b1}</Project>
+      <Project>{39909543-3882-4D85-92BD-5A0F909620E2}</Project>
       <Name>BottomBar.XamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
