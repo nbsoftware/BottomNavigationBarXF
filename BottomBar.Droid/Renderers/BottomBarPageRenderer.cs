@@ -166,6 +166,8 @@ namespace BottomBar.Droid.Renderers
                     _bottomBar.LayoutParameters = new LayoutParams(LayoutParams.MatchParent, LayoutParams.MatchParent);
                     _bottomBar.SetOnTabClickListener(this);
 
+                    _badges = new Dictionary<Page, BottomBarBadge>(Element.Children.Count);
+
                     UpdateTabs();
                     UpdateBarBackgroundColor();
                     UpdateBarTextColor();
@@ -186,6 +188,7 @@ namespace BottomBar.Droid.Renderers
             {
                 SwitchContent(Element.CurrentPage);
                 UpdateSelectedTabIndex(Element.CurrentPage);
+                SetTabBadges();
             }
             else if (e.PropertyName == NavigationPage.BarBackgroundColorProperty.PropertyName)
             {
@@ -328,8 +331,6 @@ namespace BottomBar.Droid.Renderers
 
         void SetTabBadges()
         {
-            _badges = new Dictionary<Page, BottomBarBadge>(Element.Children.Count);
-
             for (var i = 0; i < Element.Children.Count; i++)
             {
                 var page = Element.Children[i];
