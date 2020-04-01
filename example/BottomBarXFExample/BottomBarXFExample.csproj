@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <ReleaseVersion>0.8</ReleaseVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -9,7 +9,7 @@
   </ItemGroup>
  
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.583944" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.495" />
   </ItemGroup>
 
   <ItemGroup>

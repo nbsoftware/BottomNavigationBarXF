@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Xamarin.Build.Download.0.10.0\build\Xamarin.Build.Download.props" Condition="Exists('..\packages\Xamarin.Build.Download.0.10.0\build\Xamarin.Build.Download.props')" />
   <Import Project="..\packages\Xamarin.AndroidX.Migration.1.0.2\build\monoandroid90\Xamarin.AndroidX.Migration.props" Condition="Exists('..\packages\Xamarin.AndroidX.Migration.1.0.2\build\monoandroid90\Xamarin.AndroidX.Migration.props')" />
@@ -20,7 +20,6 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <ReleaseVersion>0.8</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -357,7 +356,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BottomBar.XamarinForms\BottomBar.XamarinForms.csproj">
-      <Project>{DD67D438-C481-4934-B25F-91CAD1CBA8B1}</Project>
+      <Project>{39909543-3882-4D85-92BD-5A0F909620E2}</Project>
       <Name>BottomBar.XamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
