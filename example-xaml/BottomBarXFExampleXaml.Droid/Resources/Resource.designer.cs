@@ -4012,7 +4012,6 @@ namespace BottomBarXFExampleXaml.Droid
 			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_id = global::BottomBarXFExampleXaml.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_inflatedId = global::BottomBarXFExampleXaml.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::BottomNavigationBar.Resource.Styleable.ViewStubCompat_android_layout = global::BottomBarXFExampleXaml.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::BottomBarXFExampleXaml.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation
